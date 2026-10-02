@@ -12,14 +12,25 @@
             color:blueviolet;
         }
         .card {
-            background:yellow;
+            border: 2px solid #94a3b8;
+            border-radius: 8px;
+        }
+        #main-nav {
+            background: navy;
+            color: white;
+        }
+        .price {
+            color: green;
+            font-weight: bold;
         }
     </style>
 </head>
 <body>
+    <nav id="main-nav">...nav links...</nav>
     <p class="highlight">First note</p>
     <p class="highlight">Second note</p>
     <p class="highlight">Third note</p>
+    <p>A plain note - no class, no color</p>
     
     <!-- (.card>h2+p)*2 -->
     <div class="card">
@@ -30,6 +41,7 @@
         <h2>Product B</h2>
         <p>Second Product</p>
     </div>
+    <p>The price is <span class="price">$29</span> today only!</p>
     <footer id="site-footer">
         @ 2026 CLUB SIGN-UP
     </footer>
